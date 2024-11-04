@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+main {
+    background-color: #1B1937;
+    width: 1100px;
+    border-radius: 8px;
+    display: flex;
+}
+
+h1 {
+    color: white;
+}
+
+.texte-purple {
+    color: #AB5CDB;
+}
+
+.prologue {
+    color: white;
+    opacity: 75%;
+}
+
+.image {
+width: 50%;
+position: relative;
+border-radius: 0 8px 8px 0;
+overflow: hidden;
+}
+
+.image::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-color: #58088a;
+    position: absolute;
+    opacity: 55%;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    width: 50%;
+    padding: 60px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    color: white;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.information {
+    color: white;
+    opacity: 60%;
+    font-size: 12px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.text2 {
+    font-family: "Inter", sans-serif;
+}
