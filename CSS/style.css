@@ -1,82 +1,83 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 
 main {
-    background-color: #1B1937;
-    width: 1100px;
-    border-radius: 8px;
-    display: flex;
+  background-color: #1b1937;
+  width: 1100px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.business-information {
+  width: 50%;
+  padding: 60px;
 }
 
 h1 {
-    color: white;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .texte-purple {
-    color: #AB5CDB;
+  color: #ab5cdb;
 }
 
 .prologue {
-    color: white;
-    opacity: 75%;
+  color: white;
+  opacity: 75%;
+  margin-top: 0;
+  margin-bottom: 70px;
 }
 
 .image {
-width: 50%;
-position: relative;
-border-radius: 0 8px 8px 0;
-overflow: hidden;
+  width: 50%;
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  overflow: hidden;
 }
 
 .image::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    z-index: 20;
-    background-color: #58088a;
-    position: absolute;
-    opacity: 55%;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: #58088a;
+  position: absolute;
+  opacity: 55%;
 }
 .image img {
-    width: 100%;
-    height: 100%;
-}
-
-.text {
-    width: 50%;
-    padding: 60px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 100%;
+  height: 100%;
 }
 
 .value {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .number {
-    color: white;
-    font-size: 24px;
-    font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
 }
 
 .information {
-    color: white;
-    opacity: 60%;
-    font-size: 12px;
-    font-family: "Lexend Deca", sans-serif;
+  color: white;
+  opacity: 60%;
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .text2 {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
